@@ -20,7 +20,7 @@ body {
 #choices {
   width: 240px;
   height: 80px;
-  background-color: green;
+  /* background-color: green; */
   margin-top: 80px;
   margin: 0 auto;
 }
