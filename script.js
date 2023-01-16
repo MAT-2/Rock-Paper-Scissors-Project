@@ -11,6 +11,12 @@ window.onload = function() {
     let choice = document.createElement("img");
     choice.id = choices[i];
     choice.src = choices[i] + ".png";
+    choice.addEventListener("click", selectChoice);
     document.getElementById("choices").append(choice);
   }
+}
+
+function selectChoice() {
+  you = this.id;
+  document.getElementById("your-choice").src = you + ".png";
 }
